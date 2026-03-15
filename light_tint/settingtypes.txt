@@ -1,0 +1,15 @@
+light_tint_enable (Enable light tint mod) bool true
+light_tint_interval (Update interval in seconds) float 0.7 0.1 10
+light_tint_scan_radius (Scan radius around each player) int 12 4 40
+light_tint_max_lights_per_player (Max lights processed per player) int 24 1 200
+light_tint_max_tints_per_step (Max tinted nodes processed each update) int 2600 50 12000
+light_tint_ttl (Seconds before stale tint is restored) float 1.5 0.3 10
+light_tint_max_effect_radius (Maximum tint radius from a single light) int 10 1 20
+light_tint_radius_bonus (Extra tint radius added to detected light reach) int 5 0 20
+light_tint_alpha (Tint strength alpha for color overlay) int 72 1 255
+light_tint_max_registered_variants (Cap for pre-registered tint variants to avoid node-ID overflow) int 9000 200 20000
+light_tint_include_furniture (Include simple wooden furniture nodes like chairs/sofas/tables) bool true
+light_tint_player_overlay (Tint player vision while inside colored light radius) bool true
+light_tint_player_overlay_max_alpha (Max screen tint alpha for player vision overlay) int 50 0 180
+light_tint_only_exposed_nodes (Tint only nodes with at least one visible/exposed face) bool true
+light_tint_tint_any_node (Attempt to tint almost any node type, except excluded specials) bool true
